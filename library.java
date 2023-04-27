@@ -14,7 +14,7 @@ public class library {
     private Map<String, Integer> bookAvailabilityMap;
     private Map<String, List<LocalDate>> bookLoansMap;
     
-    public libray() {
+    public library() {
         bookAvailabilityMap = new HashMap<>();
         bookLoansMap = new HashMap<>();
     }
