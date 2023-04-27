@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class libray {
+public class library {
     
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private static final int LOAN_PERIOD_DAYS = 30;
@@ -102,7 +102,7 @@ public class libray {
     }
     
     public static void main(String[] args) {
-        libray library = new libray();
+        library library = new library();
         // add some popular books to the library
         library.addBook("William Shakespeare", "Romeo and Juliet");
         library.addBook("William Shakespeare", "Hamlet");
